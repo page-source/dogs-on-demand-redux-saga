@@ -43,7 +43,7 @@ button {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 484px){
     .dogImage {
       width: auto;
       height: auto;
