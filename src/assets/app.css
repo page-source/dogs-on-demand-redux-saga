@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: green;
+  width: 145px;
+  height: 35px;
+  font-family: Arial;
+  font-weight: bold;
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
+.errorMsg {
+  color: red;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 420px){
+    .dogImage {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+  }
+}
